@@ -1,0 +1,26 @@
+.hot-tab {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2vw;
+  padding: 3vw 2vw;
+  margin-top: 8vh;
+  box-sizing: border-box;
+  font-size: 0.7rem;
+}
+
+.hot-tab .hot-article {
+  background: #2a2c3b;
+  color: #fff;
+  border-radius: 1.2vw;
+  box-shadow: 0 0.2vw 1.2vw rgba(0,0,0,0.13);
+  padding: 2vw 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.hot-tab .hot-article:hover {
+  box-shadow: 0 0.6vw 2.2vw rgba(0,0,0,0.22);
+  transform: translateY(-0.3vw) scale(1.03);
+}
